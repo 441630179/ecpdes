@@ -12,6 +12,7 @@ import java.net.URLDecoder;
 public class DesDecode {
     public static void main(String[] args) {
         try {
+            //备注
             String decodeString = YGBaseUtil.des_decode("0a22ad1831832e0ba3d29be1c7d92449f17422dab6b21cca");
             System.out.println("解密后的字符串=" + decodeString);
         } catch (YGException e) {
